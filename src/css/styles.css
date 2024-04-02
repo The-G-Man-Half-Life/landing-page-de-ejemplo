@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 * {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,36 +12,63 @@ header {
     color: white;
     text-align: center;
     padding: 20px 0;
-    /* position: fixed; */
+    position: fixed;
+    top: 0%;
     width: 100%;
 }
-.skins{
+
+main {
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+
+.skins {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
-.skins article{
+
+.skins article {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     width: 50%;
+    padding: 20px;
+
 }
-.imagen_skin img{display: flex;
+
+.imagen_skin img {
+    display: flex;
     justify-content: center;
     width: 175px;
     height: 175px;
 }
+
 .tabla_datos td {
-border: 5px solid black;
-display: flexbox;
-justify-content: center;
+    align-items: center;
+    border: 5px solid black;
 }
-.posicion{
-    display: flex
-    justify-content: center ;
+
+.tabla_datos {
+    width: 500px;
 }
-.respuesta{
-    width: 400px !important;
+
+.posicion {
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    
+    color: white;
+    background-color: black;
+    width: 100%;
 }
