@@ -25,6 +25,10 @@
     width: 80px;
     height: 80px;
 }
+.header a{
+    color: white;
+    text-decoration: none;
+}
 .navigation{
     display: flex;
     align-items: center;
@@ -36,12 +40,12 @@
     gap: 20px;
     padding-right: 40px ;
 }
-.preview{
+.description{
     
     gap: 5px;
     display: flex;
 }
-.historia{
+.history{
     gap: 5px;
     display: flex;
 }
@@ -68,4 +72,10 @@
 .stats{
     gap: 5px;
     display: flex;
+}
+.description_s{
+    margin-top: 100px;
+}
+ul{
+    list-style: circle;
 }
