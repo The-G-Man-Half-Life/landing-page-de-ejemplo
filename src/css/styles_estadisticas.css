@@ -1,0 +1,73 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    margin:100px
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  thead{
+    
+  }
+  td, th {
+    border: 3px solid purple;
+    text-align: left;
+    padding: 8px;
+  }
+td:first-child,
+th:first-child {
+  background-color: rgba(128, 0, 128, 0.3);
+}
+thead{
+    background-color: rgba(128, 0, 128, 0.3);
+  }
+.boton_pagina_principal{
+    padding-bottom: 50px;
+}
+.boton_pagina_principal button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    font-weight:bold;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    color: white;
+    background-color: purple;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
