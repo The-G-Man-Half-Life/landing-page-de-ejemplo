@@ -1,4 +1,7 @@
+/* importo los iconos de bootstrap */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/* establezco los nuevos detalles de la pagina */
+
 * {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +9,7 @@
     border: 0;
     box-sizing: border-box;
 }
-
+/* al header le ubico varios elementos para una mejor estructura del titulo ademas de un border y un position fixed para que quede fijo */
 header {
     background-color: purple;
     color: white;
@@ -18,21 +21,23 @@ header {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+/* se usan los margenes para organizar mejor el contenido */
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+/* con esta seccion mantengo un margen general en todos los lados de la table */
 section{
     margin:100px
 }
+/* aqui amplio la tabla y el texto para una mejor visibilidad */
 table {
-    width: 100%;
+    width: 1500px;
     border-collapse: collapse;
+    font-size: 20px;
   }
-  thead{
-    
-  }
+/* con los tres atributos siguientes  establezco los colores de la tabla y sus bordes */
   td, th {
     border: 3px solid purple;
     text-align: left;
@@ -45,6 +50,7 @@ th:first-child {
 thead{
     background-color: rgba(128, 0, 128, 0.3);
   }
+  /* con este apartado establezco el boton que me lleva a la pagina del index */
 .boton_pagina_principal{
     padding-bottom: 50px;
 }
@@ -57,6 +63,7 @@ thead{
     font-size: 15px;
     font-weight:bold;
 }
+/* aqui aplico las misma caracteristicas del footer del ranking de skins manteniendo la cohesion */
 .footer{
     display:flex;
     justify-content: center;
